@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin:0; 
+    padding:0;
+}
+body {
+     font-family: "Montserrat", sans-serif;
+     font-weight:400;
+     color:white;
+     }
+a {
+    text-decoration: none;
+    
+}
+img {
+    max-width: 100%;
+}
+.wrapper {
+background:#4C81FC
+}
+.container{
+    width:1200px;
+    margin:0 auto; 
+}
+
+header{
+    padding:50px 0;
+}
+
+header .logo {
+    text-transform: uppercase;
+    font-size:29px;
+    font-weight:900;
+    
+}
+header nav {
+    float:right;
+    width:50%;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li:not(.btn) {
+    display:inline-block;
+    background-color:whitesmoke ;
+    border-radius: 15px;
+    padding:5px 13px;
+
+}
+header nav ul li a{color:black}
+header nav ul li:not(.btn) a:hover {
+border-bottom:5px solid red;
+}
+header nav ul li.btn a {
+    background:yellow;
+    border-radius: 15px;
+    padding:9px 17px;
+}
+.hero {
+    padding:100px;
+}
+.hero--info {
+    width:500px;
+    position: relative;
+    top:-20px;
+    left:-50px;
+}
+img {
+    position: relative;
+    left:500px;
+    bottom:300px;
+    width:600px;
+    height:auto;
+}
+.hero--info .btn {
+    background:yellow;
+    padding:5px 9px;
+    border-radius: 5px;
+    position: relative;
+    top:20px;
+}
+
